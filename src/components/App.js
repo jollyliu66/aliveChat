@@ -133,14 +133,13 @@ class App extends React.Component {
                             }}>LiveChat React UI Kit sample</h2>
                         </div>
                     </header>
-                    <div style={{
+                   <div style={{
                         maxWidth: '990px',
                         margin: '3em auto',
                     }}>
-                        <p>Sample chat widget built with <a href="https://docs.livechatinc.com/react-chat-ui-kit/" target="_blank">LiveChat React chat UI kit</a>. In this widget, <a href="https://www.botengine.ai/">BotEngine</a> handles the incoming chats. When the bot returns `LiveChat.transfer` action, the chat is transferred to a human agent together with the transcript of the initial conversation with the bot.</p>
-                        <p>The sample app uses <a href="https://docs.livechatinc.com/visitor-sdk/" target="_blank">Visitor SDK</a> to communicate with LiveChat and <a href="https://docs.botengine.ai/api/introduction">the API</a> to connect with BotEngine.</p>
-                        <p>Source code is avaible at <a href="https://github.com/livechat/chat-widget-sample" target="_blank">Github</a>.</p>
-                        <h3>Change components theme:</h3>
+                        
+                       
+                        <h3>Change theme:</h3>
                         <button id="theme-default" name="default" style={themeDefaultButton} onClick={this.handleThemeChange.bind(this)}>
                             default
                         </button>

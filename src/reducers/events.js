@@ -3,8 +3,8 @@ import * as actionTypes from '../constants/chatActionTypes'
 
 const initialState = [
 	{
-		id: 'bot-message',
-		authorId: 'bot',
+		id: 'service-message',
+		authorId: 'AliveService',
 		text: 'Hello, how can I help you?',
 		timestamp: Date.now(),
 	},

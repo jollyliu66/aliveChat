@@ -85,7 +85,7 @@ function* handleSendMessage(sdk, { payload }) {
 			const messagesToAdd = botEngineResponse.result.fulfillment.map(fulfillmentItem => {
 				const message = {
 					id: Math.random(),
-					authorId: 'bot',
+					authorId: 'Jimmy',
 				}
 				if (fulfillmentItem.message) {
 					message.text = fulfillmentItem.message

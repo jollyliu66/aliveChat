@@ -5,9 +5,9 @@ const initialState = {
 	byIds: {
 		bot: {
 			id: 'bot',
-			name: 'Bot',
+			name: 'Jimmy',
 			avatarUrl:
-				'https://static.staging.livechatinc.com/1520/P10064EDGF/7970c9d036275c2ee9282d15535ef57b/botengine-avatar.png',
+				'http://www.clker.com/cliparts/Q/3/f/L/3/n/cartoon-robot-md.png',
 		},
 	},
 	ownId: null,

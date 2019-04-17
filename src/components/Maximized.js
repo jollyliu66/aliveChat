@@ -26,6 +26,7 @@ import {
 	RateGoodIcon,
 	RateBadIcon,
 	Bubble,
+	AddIcon
 } from '@livechat/ui-kit'
 
 const getAvatarForUser = (userId, users) => {
@@ -76,7 +77,7 @@ const Maximized = ({
 						</Column>
 						<Column flexFill>
 							<Title>{currentAgent.name}</Title>
-							<Subtitle>Support hero</Subtitle>
+							<Subtitle>Agent</Subtitle>
 						</Column>
 						<Column flexFit>
 							{chatState === 'CHATTING' &&
@@ -151,8 +152,23 @@ const Maximized = ({
 					<Fit>
 						<SendButton />
 					</Fit>
-				</Row>
+					<IconButton >
+						<EmojiIcon color="#ff9811"/>
+					</IconButton>
+
+					<IconButton>
+					<Fit>
+						<AddIcon color="#59a19e"/>
+					</Fit>
+					
+					</IconButton>	
+			</Row>
+				
 			</TextComposer>
+		
+			
+			
+
 			<div
 				style={{
 					textAlign: 'center',
