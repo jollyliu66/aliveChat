@@ -26,7 +26,8 @@ import {
 	RateGoodIcon,
 	RateBadIcon,
 	Bubble,
-	AddIcon
+	AddIcon,
+	QuickReplies
 } from '@livechat/ui-kit'
 
 const getAvatarForUser = (userId, users) => {
@@ -163,7 +164,16 @@ const Maximized = ({
 					
 					</IconButton>	
 			</Row>
-				
+
+			<QuickReplies 
+				replies={[
+					'Yes',
+					'No',
+					'Next question please',
+					"I don't understand",
+					'Sorry, but this is confusing',
+				]}
+				/>
 			</TextComposer>
 		
 			
